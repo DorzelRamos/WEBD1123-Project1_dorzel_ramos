@@ -3,8 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-.container {
-    width: 100%;
+body {
+    background-color: #000;
+    width: 100vh;
     height: 100vh;
-    background-color: aquamarine;
+    font-family: 'Roboto', sans-serif;
 }
