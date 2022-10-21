@@ -25,3 +25,11 @@ console.log(colorsArray);
 
 let wrapper_Divs = document.getElementsByClassName('wrapperDivs');
 console.log(wrapper_Divs);
+
+let divOne = wrapper_Divs.item(0);
+let divTwo = wrapper_Divs.item(1);
+let divThree = wrapper_Divs.item(2);
+let divFour = wrapper_Divs.item(3);
+
+let allDivs = [divOne, divTwo, divThree, divFour]
+console.log(allDivs);
