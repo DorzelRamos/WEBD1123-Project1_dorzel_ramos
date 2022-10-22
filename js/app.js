@@ -13,6 +13,10 @@ for(let i = 0; i < 4; i++) {
     let divs = document.createElement('div');
     wrapper.appendChild(divs);
     divs.classList.add('wrapperDivs');
+//put myDiv array here?
+//    let myDiv = allDivs[i];
+//    i 
+    
 }
 
 let color1 = "linear-gradient(135deg, #0B132B 0%, #3A506B 100%)";
@@ -33,3 +37,9 @@ let divFour = wrapper_Divs.item(3);
 
 let allDivs = [divOne, divTwo, divThree, divFour]
 console.log(allDivs);
+
+for(let i = 0; i < 4; i++) {
+    let myDiv = allDivs[i];
+    i++ 
+    document.createElement
+}
