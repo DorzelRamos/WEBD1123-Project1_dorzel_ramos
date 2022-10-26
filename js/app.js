@@ -46,8 +46,4 @@ for (let i=0; i < 4; i++) {
 let allDivs = [divOne, divTwo, divThree, divFour]
 console.log(allDivs);
 
-for(let i = 0; i < 4; i++) {
-    let myDiv = allDivs[i];
-    i++ 
-    document.createElement
 }
