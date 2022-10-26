@@ -17,3 +17,6 @@ body {
     height: 100vh;
     overflow: scroll;
 }
+.myDiv {
+    background-image: colorsArray[i];
+}

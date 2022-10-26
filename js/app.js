@@ -13,6 +13,10 @@ for(let i = 0; i < 4; i++) {
     let divs = document.createElement('div');
     wrapper.appendChild(divs);
     divs.classList.add('wrapperDivs');
+//put myDiv array here?
+//    let myDiv = allDivs[i];
+//    i 
+    
 }
 
 let color1 = "linear-gradient(135deg, #0B132B 0%, #3A506B 100%)";
@@ -25,6 +29,7 @@ let colorsArray = [color1, color2, color3, color4]
 
 let wrapper_Divs = document.getElementsByClassName('wrapperDivs');
 //console.log(wrapper_Divs);
+console.log(wrapper_Divs);
 
 let divOne = wrapper_Divs.item(0);
 let divTwo = wrapper_Divs.item(1);
@@ -38,4 +43,11 @@ for (let i=0; i < 4; i++) {
     let myDiv = allDivs[i];
     myDiv.style.backgroundImage = colorsArray[i];
     //above is whats called a javaScript CSS. Its weird 
+let allDivs = [divOne, divTwo, divThree, divFour]
+console.log(allDivs);
+
+for(let i = 0; i < 4; i++) {
+    let myDiv = allDivs[i];
+    i++ 
+    document.createElement
 }
